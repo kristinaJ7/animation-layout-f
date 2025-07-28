@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="./images/favicon.ico" sizes="any" />
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/globals.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/animation.css">
+</head>
+
+<body class="page">
+
+    <section class="block_card">
+        <div class="block_text">
+            <div class="animation_item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="139" height="139" fill="none" class="svg_animation">
+                    <path fill="#000" fill-opacity=".8" fill-rule="evenodd"
+                        d="M52.527 41.213c9.373 9.372 24.569 9.372 33.941 0 9.373-9.373 9.373-24.569 0-33.941-9.373-9.373-24.568-9.373-33.941 0-9.373 9.372-9.373 24.568 0 33.94Zm5.657-5.657c6.248 6.248 16.379 6.248 22.627 0 6.249-6.248 6.249-16.38 0-22.627-6.248-6.249-16.379-6.249-22.627 0-6.248 6.248-6.248 16.379 0 22.627Z"
+                        clip-rule="evenodd" />
+                    <path class="animation_fill" fill="var(--fill-color-animation,#000)" fill-opacity=".8"
+                        d="M97.782 86.467c9.372 9.372 24.568 9.372 33.941 0 9.372-9.373 9.372-24.569 0-33.941-9.373-9.373-24.569-9.373-33.941 0-9.373 9.372-9.373 24.568 0 33.94ZM52.527 131.724c9.373 9.373 24.569 9.373 33.941 0 9.373-9.372 9.373-24.568 0-33.94-9.373-9.373-24.568-9.373-33.941 0-9.373 9.372-9.373 24.568 0 33.94Z" />
+                    <path fill="#000" fill-opacity=".8" fill-rule="evenodd"
+                        d="M41.213 86.467c-9.372 9.372-24.568 9.372-33.94 0-9.373-9.373-9.373-24.569 0-33.941 9.372-9.373 24.568-9.373 33.94 0 9.373 9.372 9.373 24.568 0 33.94Zm-5.657-5.657c-6.248 6.248-16.379 6.248-22.627 0-6.248-6.249-6.248-16.38 0-22.628 6.248-6.248 16.379-6.248 22.627 0 6.249 6.249 6.249 16.38 0 22.628Z"
+                        clip-rule="evenodd" />
+                </svg>
+            </div>
+            <h1 class="card_title">Quick Start Guide.</h1>
+            <p class="card_text">This guide will introduce you to Motion. You'll learn the basics, try some tutorials,
+                and
+                dive into the details of creating animations.
+            </p>
+            <button class="card_button" aria-controls="dialog-id" onclick="window['dialog-id'].showModal();"
+                type="button"><span class="button__text_dialog">Start</span></button>
+        </div>
+        <dialog id="dialog-id" class="dialog">
+            <div class="blok__wrapper">
+                <h2 class="title__dialog">Зарегистрируйтесь,<br> чтобы <br>продолжить</h2>
+                <form class="form__dialog" method="dialog">
+                    <button type="submit" class="button__dialog" aria-controls="dialog-id">
+                        <span class="button__dialog_text">регистрация</span></button>
+                    <button class="close-btn" onclick="closeRegistrationForm()">X</button>
+            </div>
+
+        </dialog>
+
+        <div class="animation_svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 30" width="100" height="100">
+                <path class="svg_like"
+                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                    fill="#fff" />
+            </svg>
+            <button class="button_svg">I like it</button>
+        </div>
+    </section>
+    <section class="card">
+        <ul class="card__type_like_list">
+            <li class="card__type_like_list_item">
+                <img class="card_images" src="./images/premium_photo.jpg" alt="">
+
+
+                <p class="card_like_text">
+                    Узнайте, как создавать привлекательные уведомления и сообщения в Motion. Вдохновите свою аудиторию!
+                </p>
+                <div class="wrapper_button">
+                    <button class="button_like">Like</button>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="45" height="40">
+                        <path class="svg_like"
+                            d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                            fill="var(--fill-color-like, #b348aa)" />
+                    </svg>
+
+                </div>
+            </li>
+            <li class="card__type_like_list_item">
+                <img class="card_images" src="./images/images.jpg" alt="">
+                <p class="card_like_text">
+                    Начните создавать удивительные анимации с нашим кратким руководством. Изучите основы и станьте
+                    мастером Motion.
+                </p>
+                <div class="wrapper_button">
+                    <button class="button_like">Like</button>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="45" height="40">
+                        <path class="svg_like"
+                            d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                            fill="var(--fill-color-like, #b348aa)" />
+                    </svg>
+                </div>
+            </li>
+            <li class="card__type_like_list_item">
+                <img class="card_images" src="./images/images.block.jpg" alt="">
+                <p class="card_like_text">Изучите, как легко обмениваться и синхронизировать свои проекты в Motion.
+                    Сотрудничайте с легкостью!
+
+                </p>
+                <div class="wrapper_button">
+                    <button class="button_like">Like</button>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="45" height="40">
+                        <path class="svg_like"
+                            d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                            fill="var(--fill-color-like, #b348aa)" />
+                    </svg>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <h1 class="footer_title">MOTION</h1>
+    </footer>
+    <script src="./scripts/scripts.js"></script>
+</body>
+
+</html>

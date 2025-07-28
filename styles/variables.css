@@ -1,0 +1,20 @@
+:root{
+    --background-image:radial-gradient(at 40px 50px, #ffffff47, #607D8B);
+    --fill-color-like: #b348aa;
+    --fill-color-animation:#000 ;
+    --background-color: #e0b9e7;
+    --color-block_card: #4d074c;
+    --button-background-color: #4d074c;
+    --dialog-background-color: #4d1747;
+    --close-btn-hover-background-color: #631f67;
+    --animation_svg-box-shadow: 12px -9px 0px 2px #4d1747;
+    --font-family: 'SpecialGothicExpandedOne';
+    --font-size-title:4rem ;
+    --font-size-card_text: 2rem;
+    --border-radius: 50px;
+    --text-shadow-label:
+  -1px -1px 0 var(--color-outline-label,#7d318a),
+  1px -1px 0 var(--color-outline-label,#7d318a),
+  -1px 1px 0 var(--color-outline-label,#7d318a),
+  5px 1px 0 var(--color-outline-label,#7d318a);
+}

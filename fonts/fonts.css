@@ -1,0 +1,6 @@
+@font-face {
+  font-display: swap;
+  font-family: 'SpecialGothicExpandedOne';
+  src: local('SpecialGothicExpandedOne'), 
+       url('./SpecialGothicExpandedOne-Regular.ttf') format('truetype');
+}
