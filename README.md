@@ -17,3 +17,7 @@
 
 ## Примечания
 Проект создан исключительно для  обучения.
+
+https://kristinaj7.github.io/animation-layout-f/
+
+https://github.com/kristinaJ7/first-project.git
